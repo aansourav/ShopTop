@@ -18,7 +18,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
     title: "ShopTop",
-    description: "E-commerce Application of Learn with Sumit",
+    description: "The Exclusive E-commerce Application for Happy Shopping",
 };
 
 export default async function RootLayout({

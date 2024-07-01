@@ -28,6 +28,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/components/account/PersonalProfileEdit.tsx"
-  ],
+, "src/app/[lang]/privacy-policy/page.js", "src/app/[lang]/terms-of-service/page.js"  ],
   "exclude": ["node_modules"]
 }

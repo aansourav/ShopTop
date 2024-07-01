@@ -22,24 +22,15 @@ export async function doSignOut() {
 }
 
 export async function doSignInWithGoogle() {
-    await signIn("google", {
-        callbackUrl:
-            "https://shoptop-aansourav.vercel.app/api/auth/callback/google",
-    });
+    await signIn("google", { callbackUrl: process.env.BASE_URL });
 }
 
 export async function doSignInWithFB() {
-    await signIn("facebook", {
-        callbackUrl:
-            "https://shoptop-aansourav.vercel.app/api/auth/callback/facebook",
-    });
+    await signIn("facebook", { callbackUrl: process.env.BASE_URL });
 }
 
 export async function doSignInWithGit() {
-    await signIn("github", {
-        callbackUrl:
-            "https://shoptop-aansourav.vercel.app/api/auth/callback/github",
-    });
+    await signIn("github", { callbackUrl: process.env.BASE_URL });
 }
 
 export async function login(values: z.infer<typeof loginFormSchema>) {

@@ -38,7 +38,7 @@ export const ForgotPasswordForm = ({ dictionary }: any) => {
             <FormItem>
               <FormLabel>{enter_your_email}</FormLabel>
               <FormControl>
-                <Input placeholder='sumitsaha@gmail.com' {...field} />
+                <Input placeholder='aansourav@gmail.com' {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -51,7 +51,7 @@ export const ForgotPasswordForm = ({ dictionary }: any) => {
             <FormItem>
               <FormLabel>{enter_resend_account_email}</FormLabel>
               <FormControl>
-                <Input placeholder='sumitsaha@gmail.com' {...field} />
+                <Input placeholder='aansourav@gmail.com' {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>

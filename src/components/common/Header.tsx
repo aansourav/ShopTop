@@ -4,7 +4,7 @@ import ReactQueryProvider from "@/providers/QueryProvider";
 import { fetchUserCart, fetchUserWishlist } from "@/utils/headerFetchUtil";
 import Image from "next/image";
 import Link from "next/link";
-import LWSLogo from "../../../public/logo.png";
+import Logo from "../../../public/logo.png";
 import HeaderButtons from "./HeaderButtons";
 import HeaderContainer from "./HeaderContainer";
 import Search from "./Search";
@@ -33,7 +33,7 @@ const Header = async ({ lang }: ILang) => {
                 <Link href={isAdmin ? `/${lang}/admin-dashboard` : `/${lang}`}>
                     <div className="flex gap-2 items-center">
                         <Image
-                            src={LWSLogo}
+                            src={Logo}
                             alt="Logo"
                             placeholder="blur"
                             width={150}

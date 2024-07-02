@@ -62,7 +62,7 @@ const FormRow = ({
                       </DialogTrigger>
                       <DialogContent className='w-fit'>
                         <DialogHeader>Terms and Conditions</DialogHeader>
-                        {/* lws terms and condiitons */}
+
                         <TermsAndConditions isLocaleBengali={isLocaleBengali} />
                       </DialogContent>
                     </Dialog>

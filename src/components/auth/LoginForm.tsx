@@ -87,7 +87,7 @@ const LoginForm = ({ dictionary }: ILoginLocale) => {
             form={form}
             label={emailLabel}
             name='email'
-            placeholder='sumitsaha@gmail.com'
+            placeholder='aansourav@gmail.com'
             setFocusedField={setFocusedField}
           />
           <FormRow

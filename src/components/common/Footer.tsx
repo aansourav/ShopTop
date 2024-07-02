@@ -1,6 +1,6 @@
 import { getDictionary } from "@/app/[lang]/dictionaries";
 import Image from "next/image";
-import LWSLogo from "../../../public/logo.png";
+import Logo from "../../../public/logo.png";
 
 const Footer = async ({ lang }: ILang) => {
     const {
@@ -20,7 +20,7 @@ const Footer = async ({ lang }: ILang) => {
                 <div className="space-y-4">
                     <div className="flex gap-2 items-center">
                         <Image
-                            src={LWSLogo}
+                            src={Logo}
                             alt="Logo"
                             placeholder="blur"
                             width={150}
